@@ -1,2 +1,3 @@
 # Pen-Paint-Challange
-Sketch something only using a Pen.
+  Sketch Anything...
+  Let's test your skills, you have ONLY A PEN and NO ERASER. Have fun!
