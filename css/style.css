@@ -1,8 +1,25 @@
 canvas {
 	border: 5px solid #ccc;
-	background: white;
+	background: lightpink;
 }
 
 body {
 	background-image: url("bg.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	color: white;
+}
+
+h3 {
+	color: lightpink;
+}
+
+button {
+	background-color: lightblue;
+	font-size: 20px;
 }
