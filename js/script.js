@@ -16,3 +16,11 @@ el.onmouseup = function() {
 	  isDrawing = false;
 };
 
+function download_image() {
+  var canvas = document.getElementById("mycanvas");
+  image = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
+  var link = document.createElement('a');
+  link.download = "my-image.png";
+  link.href = image;
+  link.click();
+}
