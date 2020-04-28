@@ -1,5 +1,6 @@
 var el = document.getElementById("mycanvas");
 var ctx = el.getContext("2d");
+ctx.lineWidth = 5;
 var isDrawing;
 
 el.onmousedown = function(e) {
